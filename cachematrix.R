@@ -36,8 +36,7 @@ cacheSolve <- function(x, ...) {
 
 
 tst <- matrix(1:4, nrow=2,ncol=2)
-tst
-solve(tst)
+
 
 tst2 <- makeCacheMatrix(tst)
 cacheSolve(tst2)
